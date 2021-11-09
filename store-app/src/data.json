@@ -1,0 +1,472 @@
+{
+  "stores": [
+    {
+      "storeId": "store-1",
+      "storename": "Burger-King",
+      "storeimage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F998a9dab-0673-4c78-899d-f4b346a7abbd.jpg?fit=scale-down&source=next&width=700",
+      "recipes": [
+        {
+          "item": {
+            "itemId": "item-1",
+            "itemname": "Chicken Cordon Bleu I",
+            "itemimage": "https://images-gmi-pmc.edge-generalmills.com/26807741-9624-4591-b290-bf42ab99222d.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "¼ teaspoon salt",
+              "⅛ teaspoon ground black pepper",
+              "6 slices Swiss cheese",
+              "4 slices cooked ham",
+              "½ cup seasoned bread crumbs"
+            ],
+            "price": 250,
+            "discount": 15,
+            "distance": 3,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-2",
+            "itemname": "Easy Tuna Casserole",
+            "itemimage": "https://sparkpeo.hs.llnwd.net/e1/resize/630m620/e2/guid/Easy-Tuna-Noodle-Casserole/5c4e8627-8a79-4fe3-bb1c-bdd8a7c5e4b8.jpg",
+            "ingredients": [
+              "3 cups cooked macaroni",
+              "1 (5 ounce) can tuna, drained",
+              "⅛ teaspoon ground black pepper",
+              "1 (10.75 ounce) can condensed cream of chicken soup",
+              "1 cup shredded Cheddar cheese",
+              "1 ½ cups French fried onions"
+            ],
+            "price": 150,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-3",
+            "itemname": "Bacon Chicken II",
+            "itemimage": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5842765.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "1 (18 ounce) bottle honey barbecue sauce",
+              "1 pound sliced bacon"
+            ],
+            "price": 320,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-4",
+            "itemname": "Pesto Chicken",
+            "itemimage": "https://i.ytimg.com/vi/OamKvzFLK7A/maxresdefault.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "½ cup prepared basil pesto, divided",
+              "4 thin slices prosciutto, or more if needed"
+            ],
+            "price": 240,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-5",
+            "itemname": "Simple Roasted Butternut Squash",
+            "itemimage": "https://d47gxy3fatgwk.cloudfront.net/wp-content/uploads/2012/11/roasted-butternut-squash-237.jpg",
+            "ingredients": [
+              "1 butternut squash - peeled, seeded, and cut into 1-inch cubes",
+              "2 tablespoons olive oil",
+              "2 cloves garlic, minced",
+              "salt and ground black pepper to taste"
+            ],
+            "price": 140,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        }
+      ]
+    },
+    {
+      "storeId": "store-2",
+      "storename": "Arby's",
+      "storeimage": "https://cdn.vox-cdn.com/thumbor/TsuCdH1uNIW-XqDFHGvALoMeCn0=/5x0:2046x1531/1200x800/filters:focal(5x0:2046x1531)/cdn.vox-cdn.com/uploads/chorus_image/image/48554281/14348207104_c706dda62c_k.0.0.jpg",
+      "recipes": [
+        {
+          "item": {
+            "itemId": "item-1",
+            "itemname": "Chicken Cordon Bleu I",
+            "itemimage": "data:image/jpeg;base64,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",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "¼ teaspoon salt",
+              "⅛ teaspoon ground black pepper",
+              "6 slices Swiss cheese",
+              "4 slices cooked ham",
+              "½ cup seasoned bread crumbs"
+            ],
+            "price": 250,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-2",
+            "itemname": "Easy Tuna Casserole",
+            "itemimage": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/02/non-veg-1582217034.jpg",
+            "ingredients": [
+              "3 cups cooked macaroni",
+              "1 (5 ounce) can tuna, drained",
+              "⅛ teaspoon ground black pepper",
+              "1 (10.75 ounce) can condensed cream of chicken soup",
+              "1 cup shredded Cheddar cheese",
+              "1 ½ cups French fried onions"
+            ],
+            "price": 150,
+            "distance": 3,
+            "type": "veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-3",
+            "itemname": "Bacon Chicken II",
+            "itemimage": "https://thenovicechefblog.com/wp-content/uploads/2021/05/Hot-Honey-Chicken-Wings-in-Air-Fryer-.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "1 (18 ounce) bottle honey barbecue sauce",
+              "1 pound sliced bacon"
+            ],
+            "price": 320,
+            "discount": 15,
+            "distance": 3,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-4",
+            "itemname": "Pesto Chicken",
+            "itemimage": "https://c.ndtvimg.com/2019-05/73tetn7o_chicken_625x300_23_May_19.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "½ cup prepared basil pesto, divided",
+              "4 thin slices prosciutto, or more if needed"
+            ],
+            "price": 240,
+            "distance": 3,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-5",
+            "itemname": "Simple Roasted Butternut Squash",
+            "itemimage": "https://media.easemytrip.com/media/Blog/India/636977607425696252/636977607425696252QYiiUU.jpg",
+            "ingredients": [
+              "1 butternut squash - peeled, seeded, and cut into 1-inch cubes",
+              "2 tablespoons olive oil",
+              "2 cloves garlic, minced",
+              "salt and ground black pepper to taste"
+            ],
+            "price": 140,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        }
+      ]
+    },
+    {
+      "storeId": "store-3",
+      "storename": "Crystal",
+      "storeimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgrp-ALoLK0xeulW01VAKszbzHqw3DVNpnaHe2yeAB1wb-w-EsFeC6pVXLTxsN_pCjtYM&usqp=CAU",
+      "recipes": [
+        {
+          "item": {
+            "itemId": "item-1",
+            "itemname": "Chicken Cordon Bleu I",
+            "itemimage": "https://manitobachicken.ca/wp-content/uploads/2020/11/MCP_Hoisen-Chicken-rs-0378-copy.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "¼ teaspoon salt",
+              "⅛ teaspoon ground black pepper",
+              "6 slices Swiss cheese",
+              "4 slices cooked ham",
+              "½ cup seasoned bread crumbs"
+            ],
+            "price": 250,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-2",
+            "itemname": "Easy Tuna Casserole",
+            "itemimage": "https://assets.limetray.com/assets/image_manager/uploads/2244/3_1443527427.jpg",
+            "ingredients": [
+              "3 cups cooked macaroni",
+              "1 (5 ounce) can tuna, drained",
+              "⅛ teaspoon ground black pepper",
+              "1 (10.75 ounce) can condensed cream of chicken soup",
+              "1 cup shredded Cheddar cheese",
+              "1 ½ cups French fried onions"
+            ],
+            "price": 150,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-3",
+            "itemname": "Bacon Chicken II",
+            "itemimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxMi7WlpRQm5GGLKDAA4YLEPZwSdfXmxxbVQ&usqp=CAU",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "1 (18 ounce) bottle honey barbecue sauce",
+              "1 pound sliced bacon"
+            ],
+            "price": 320,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-4",
+            "itemname": "Pesto Chicken",
+            "itemimage": "https://c.ndtvimg.com/2020-10/c0ljoepo_chicken-sukka_625x300_05_October_20.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "½ cup prepared basil pesto, divided",
+              "4 thin slices prosciutto, or more if needed"
+            ],
+            "price": 240,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-5",
+            "itemname": "Simple Roasted Butternut Squash",
+            "itemimage": "https://www.watscooking.com/images/dish/large/southmeals7.jpg",
+            "ingredients": [
+              "1 butternut squash - peeled, seeded, and cut into 1-inch cubes",
+              "2 tablespoons olive oil",
+              "2 cloves garlic, minced",
+              "salt and ground black pepper to taste"
+            ],
+            "price": 140,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        }
+      ]
+    },
+    {
+      "storeId": "store-4",
+      "storename": "Stanbul",
+      "storeimage": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6e862a98984729.5ee8c06da740b.jpg",
+      "recipes": [
+        {
+          "item": {
+            "itemId": "item-1",
+            "itemname": "Chicken Cordon Bleu I",
+            "itemimage": "https://www.surfindia.com/recipes/images/recipes/chicken-hazaarvi.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "¼ teaspoon salt",
+              "⅛ teaspoon ground black pepper",
+              "6 slices Swiss cheese",
+              "4 slices cooked ham",
+              "½ cup seasoned bread crumbs"
+            ],
+            "price": 250,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-2",
+            "itemname": "Easy Tuna Casserole",
+            "itemimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6P4kWZYfZVufbazutIHzX6Ya9VaFIMDq_qA&usqp=CAU",
+            "ingredients": [
+              "3 cups cooked macaroni",
+              "1 (5 ounce) can tuna, drained",
+              "⅛ teaspoon ground black pepper",
+              "1 (10.75 ounce) can condensed cream of chicken soup",
+              "1 cup shredded Cheddar cheese",
+              "1 ½ cups French fried onions"
+            ],
+            "price": 150,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-3",
+            "itemname": "Bacon Chicken II",
+            "itemimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi-N98mWzR__tT3c9YZTSzqIyoa6TTh-9yaahRqsfa6lt39iXc44LgPxDLW3v2G9Dfdjc&usqp=CAU",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "1 (18 ounce) bottle honey barbecue sauce",
+              "1 pound sliced bacon"
+            ],
+            "price": 320,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-4",
+            "itemname": "Pesto Chicken",
+            "itemimage": "https://lh3.googleusercontent.com/proxy/UQc4RKC1eyX1AqpUMpZi2EUaOnK9i3OTc84-oebJXTeztKg4fi_OfjUFNxN7defgh35Mt0SRW77lGw5B_0j_2JNYvseCIUXokIfDvQ9uXboJV6QjyCcDHx4YE3UqxluOEg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "½ cup prepared basil pesto, divided",
+              "4 thin slices prosciutto, or more if needed"
+            ],
+            "price": 240,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-5",
+            "itemname": "Simple Roasted Butternut Squash",
+            "itemimage": "https://c.ndtvimg.com/2020-06/qc8ndie_rajma-sandwich_625x300_04_June_20.jpg",
+            "ingredients": [
+              "1 butternut squash - peeled, seeded, and cut into 1-inch cubes",
+              "2 tablespoons olive oil",
+              "2 cloves garlic, minced",
+              "salt and ground black pepper to taste"
+            ],
+            "price": 140,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        }
+      ]
+    },
+    {
+      "storeId": "store-5",
+      "storename": "Checkers",
+      "storeimage": "https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr02/2013/9/6/17/enhanced-buzz-wide-29047-1378501230-14.jpg",
+      "recipes": [
+        {
+          "item": {
+            "itemId": "item-1",
+            "itemname": "Chicken Cordon Bleu I",
+            "itemimage": "https://c.ndtvimg.com/2020-07/0vhf999_chicken-wings_625x300_17_July_20.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "¼ teaspoon salt",
+              "⅛ teaspoon ground black pepper",
+              "6 slices Swiss cheese",
+              "4 slices cooked ham",
+              "½ cup seasoned bread crumbs"
+            ],
+            "price": 250,
+            "discount": 15,
+            "distance": 3,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-2",
+            "itemname": "Easy Tuna Casserole",
+            "itemimage": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2021%2F01%2F15%2Fwhite-bean-arugula-crostini-RU215256-2000.jpg",
+            "ingredients": [
+              "3 cups cooked macaroni",
+              "1 (5 ounce) can tuna, drained",
+              "⅛ teaspoon ground black pepper",
+              "1 (10.75 ounce) can condensed cream of chicken soup",
+              "1 cup shredded Cheddar cheese",
+              "1 ½ cups French fried onions"
+            ],
+            "price": 150,
+            "discount": 15,
+            "distance": 3,
+            "type": "veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-3",
+            "itemname": "Bacon Chicken II",
+            "itemimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4XegMdfJGNbnyq4ACs2mwtHtXxADdNmc8ig&usqp=CAU",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "1 (18 ounce) bottle honey barbecue sauce",
+              "1 pound sliced bacon"
+            ],
+            "price": 320,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-4",
+            "itemname": "Pesto Chicken",
+            "itemimage": "https://assets.tendercuts.in/product/p/r/pr_mrt_smk_chk_tnd.jpg",
+            "ingredients": [
+              "4 skinless, boneless chicken breast halves",
+              "½ cup prepared basil pesto, divided",
+              "4 thin slices prosciutto, or more if needed"
+            ],
+            "price": 240,
+            "distance": 3,
+            "discount": 15,
+            "type": "non-veg"
+          }
+        },
+        {
+          "item": {
+            "itemId": "item-5",
+            "itemname": "Simple Roasted Butternut Squash",
+            "itemimage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMWFRUXGBcZFxgYGB0ZHRoYGBcXFxgaGB0YHSggGB0nGxgYITEiJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lICYtLS0tLS0tLS0tLS8vLS0tLS0vLS0tLS0tLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAQIDBAYAB//EADsQAAECBAQEBAQFAwMFAQAAAAECEQADITEEBRJBIlFhgQYTMnGRobHwI0LB0eFSYvEUM3IHFUOCohb/xAAaAQACAwEBAAAAAAAAAAAAAAACBAEDBQAG/8QAMREAAQMCAwYFBAMBAQEAAAAAAQACEQMhBDFBElFhcYHwE5GhsdEFIsHhIzLxQhRS/9oADAMBAAIRAxEAPwARi8LKllBmCgHIbCjvf3jJKwysRNUHPlpN0j4ACwgv4nxilqbclgByH8xayKQmWhlk1SVDTZ6uPvlGGx2y3a1OXygyQudI8nRYAMUh3fc6mY3O0WJGOmTlhMxZABdk0Cm5CJVYFE8pW7E3SXNuUVMTlemqHCgefcNygg5pF896JaHMUSTL8tAOskHUpLctTnejiBczLGQpQJDUUHt39ojw2bqpLmIKjYN6o7H5rqSmUlJQlShrUo1qQNo4U6pMDJQGjIK5kMiVKlpMw6ySeEbbamJtUfGNBLmCimcmktLMKU1Hn053tAeRl6FTPMWSxohD0KRzYDh97xdxCJ3+oSSAmSE3cVUTa/CwEZlVwe/a1ub+w4hepZSYwBoFvdTZnlRKCuWCF1Khd+rb1+pgJjcpGJkBSFAKQblwGbrt99I2OExyFMnUkqDpIepFqwzJ8EkpmpSlmmK6j0JNOTEwxgZcS0ZgSO/bqlq1U02/dl36frr5YvLJ8pTmUoBVBThfp0Z6f4ivg5awrSUnSSXdJN49kVl85QHoSf6km/Ygg84q4rKl3WoH2pa23ekbTNsXDTPL57jWyQqVQ4QXCJ39/wCwIusPkOEnS0KEwMkkFD3I5ttyrHpvhHKillKHEWJ6U/n5wMyrKgVai5SDR66lRucFK0jqb/tDcSLpEug2V1JhzwxKukOfp84JAleOeKGPzWVKfUoOHoKmlS/KM3mfixRDS+EGxAJP8QLnhuaIAlbGdiEIDrUEjqYz2L8YykrMtCVKUxIJDJIDC/cULGMXiMXOmTACFKBfiJdjsGBJeCeDyNROpZLctu0UittmGqw0tkS5WcZ4qmrcJUE1/KLd4Dz5k+YQyl3qLuGseV/lGokZWhNkj5cosokJR8hcmJI/+ih2hosUrK5itoQZHNp+320bxKB9YQSwkAEuWAc3NLlqQRaM1AcVhf8As0xiCP8AEV8Tkam5MKchG+8tyGtudjs17wqpXQHn8I7YaQpDyCvMjkZsUi1VM1X/AI+kVVYedKLoUtNt6U5fe5j0oSkL1p0qSQSlylthVJNCK36GK87JQUgJNQBU1f3aAFNrhIR+I4LLZR45xUphMOtIYVDxuMk8aYefQnQqxez/AKRkMTkQUNSQ4rsQ5BIND7QAxmAKVOkc+ho/O8QH7ImZC7ZDuC9yeGmPLfDHjKZJ0onOqWbv6kx6ZhsYiYkLQdSTYww0gqotIUhMI8IVjrDTMH2IJCnPDSYTzBz+RhusfYMSulOeEeEeEeOULxXEZZpUfMBMwXYWAuw/WIJmPQlCkygtRIoFCgLM5Y1vsfhHp2CxMjFoCpZGrdO4iniPC8hTvKS5uWAPxEJVcA1xBZ+vJRO9ea4HGJFVakkbM249JH8RoMLlq5vEsaAas+okfQQePhCQCDoJbYkkRexEsIRQDkBA08CZ+4e6kEBZ6ZhEygyE6pigwJvWjvt2gKnBolvMmALYkJS7hShv7DnF/GrXPmqwssOVD8ea1EINChPU2Pw5sQVkEsS0y0gjSGBuTzd+u20G6jtDYabaxrwB048PNMsIYNo56DdxP489yreGzKxDGYR5oooG45FIsByPItBrFSKKlnSE8muHBt7xkMZ4aXdJAIsoEg/SO/7Ni1NqnktbiX3jLr/SnOP8bo87cOXl1TtP6gRBfeO5RWfnElMsGWNRJItpIIJSSX2oI0/h2SpMhGonWt1qe9Wa9qN84D+HPCaJZC5pKyKh6B+bfu8ayWQ5UAwPxUaB+YDCnOHcNgG4fI3Pt3+rwCvXxZraWHv3u+SnrDCB85IJdRYfdomx2LSn1GpoEi5/aG5dLK1a1gMLJ2HL3MacxkkUQy3DWUoM3pHLqev37FEwPx+YS5EtU2arSlIqfcsAALkkgd4zGZeNtYKMMDrIYFQapDsfbeK3ODRJVjWlxgLW5nnMqQHWquyRc+wjI5n4qnTXEo6EsbXewfnA3CZPiFnzJ0xKyWJABHKjknk8HhlSE1Adq0+7btCVWrUJMCPzu/xMNp026z33dAJeWzph1rVpSWYEk25C55wbw2DlKRwk2Bdq/C8EPwxcgO2/MNV4zOaeL8NIVMQSVaN0jhK7BIrz3hfbdk2+/X/ArAAb5bu9UewaZeHlkFSVKBJcAJdyTTaloqDxdKC9FdQBcNY0YA/Gv7xnfD2cS8TpBllBNAxcBQSS3FcUZ+ZFIJ5nMkS5ZmmUolID8LqNQGAH1NO0UmviQ8U5DdwBnXrPomRRoCXPBdv0075K3N8WaGSZSlLU6qFISEElnPsNgY6V4iTNmpAlzQATxBgksD11KTyoI85xeaLmlc+qCpJCUgenQpwDvsSTS4jS5XjlqkqnJcndk+kGmoNVQcK2oWhglxaA4ycuvzu7KtZhaf8AaM752g/jRbJeaIlV4ik1BuKiwDk/AQyRmqp5K5TeWglJ1OFah6nDfD48oz+VKqHcjYFzQ8hHYTxZhpKpkooMspUp2UFEq9JLbE3b9oow1Z9baYCYBER17z0Q4nCNoAONzvPea0uEzB1aPSpgdKuTkMOtH7iL4VUe31jG4LGebi/NlhQlmh1Dho4Beof2tWNXxFx0p/m8M0Kjmgtdof8AOSTr022c3Ud9+qsEmjBwXc2blTeEWSxZnYs9n+rQ9JYG5aKGfZp5MnUkcaqJB2JFzzaHTVa0STpKVZSc9wa0XJjvpdWgHFb7/wAPA7G4FK3cDoe1+kAMv8Qr1ETwpaCOJVDzqGANAK9Ivz85mTSZeFlpWotxqJ0ISQC6wwIPJLub1ipuIZUgApirg6tG7vPT1jvKUEznLNI4WrYE33I6sKxF4W8RLwkwIWSZaixfnz6RpcPk2gFS1mbMV65ihU/2oSKIR/aPeprGGzhSFTVykhWpABLhqFj7vUXi4jZjelh90he1SZyVpCklwaiOMYD/AKeeIP8AwTFOdnvs31jfqPaLmnaEhVOEG6QwhMDcHjDOWVIJEpBIf+tW7dBzggTEU3h4kZe/FE5paYOfsuJhuqOJhrxYgXiMieuUrVLUUkco1eVePDROIS/9w/WM5icEtN0n3imuXCzXlqtIBzXrODzWRODomJPR2PwMV87ws1aQmSQCqhWfyBqqA/MrYC1X2Y+U6CKpJHtF7CZ/iZXpmHvFvjb0Hhr0zKMjRIliWgMBckuVHdSjuTF7/tyTHmyPGuK30nq0TI8aYijgFu0R4oFgPZTsE3J91v1ZUjnCy8vlpqzxhkeLMXM9CB2EWEnFTP8AdnED+lP7wfiBDsHVanE4+TLPGsP/AE+o/AUeKE7NZi/9pOgf1K9XYbd4H4bCpTYd7k9zFtCWqaQLeCIqXC4au6lG5NSf2gjPxKZKf2qSd2gcjEhI18/SNzVtVKgQBz+epQ3KlcIYenr+sC94aiY0uNkE8X+J5k4lH/joW2Udn51gv4OqWmhBo/BUuAh36sXLc4xuOyqauYoggJQAakA0qGFyXe0E/BWZCWoJBVUvQO3Mv9doUfUgzN/b8LWoYZzmbIGnnl14L1SWghJNW/Q8u0TJmOGND8+8ZybnWIl6lrCEykhnB9Zdkq35WDkfKIsuzuZN1aVSwyiRqJBq62dRJb5M42hWm4vdY7xzgmSufgnhhcQIEX3ZQPK6h8UY1UuZpSaMFEBquVA/Bnbr7RQRhwtJ1JUyhQhFioUuWLXJpXnATM/EZn1WgJWEKTQ0Id7XsR8O0LPzdSpQEw2AKVGpBBdK02oQmtbmDpMpNkkKnE0a1ItkxofwQO8kXy3LTKVK0s6iEnYOl92oXAUDem4pHZjMXNmErmBIqjygGIUmhIpYsSIlkzTMTMWSk+XxOk0KkgJCgH3FD7RJleaiYUBBleelLLWoJBFCRoJSa1YsXq/un9p22Ovsn9j09TxWtWG0xtVtpEcBv06cgoMLlSlgsg6US5oUku+6qUqan4RF4QxC0IMtgBpKSwL0cPqsHdmPPa8J4h8TpkJITMCphBStYOoqcbk7VNIz+BTOI0qUmWlSA6lKLVU+xoWp+20gOOeUg3HnaJO6Qppn7BOg652Nz5LUZVitJCVBlXY3v+8BPHWpGKGkEoUASA6SS59SksTcFj/U0JhcedQCUzCAwckqsPkOn1jSIxBUE+YgMklJ4Q7kBiSVM1qAbmJwzTSruA5zy812PcypQbUdE7s+mXxGUhVfCfiRCZYlIlq1AJbUksCosUukHlS0aLH54sSVrlBKVJCQ6vSAtuIPyexG4jNT5s5ExCEKKJQLvLJTxBJSpKtLlSXSWPv7xU8a4lapaCEldRxAagU3YtT1NS9IacXufLXdOKQbhm7ALmgTrJy8oWgwnigoR+JOSss+pSQNVbaUl/laBPivPRMShaCFAn0ubuAdL7WjM4fROU6pZU4YMopZVOI1qGelPlHYTKVrWJAUXFVOlQAO3qZ3pUAXtvFTWmpDXXM/Kfc3D0HbTRFrHvkiCs1KQkpBL0pT+RvHofgyWThZKxpZaVFRF9Wo0oGP5nL/ABjzVeGT58qTMeU60pOotpdQc8ikpdjHs6VgjhItRqhtu0M/T8OGy6Lz17zSX1muDssFxEyMo77umLQ8ZzOsvSQVgBzQkM5bmYueIMf/AKZBxKQqYpRSjRq4A2ouALGM/hvF5WnSqSXNNRDC1yxr2aG6uKp0zD+9yz8P9OxFdniUxIyzA94WaxWqTNC07ERsZudTcw0YTDEoGlKsXNH5EbS0/wB6m/yHjM5iiYtB9KlkkBgwY1c1PWDn/S1YlqmydzUnmR/EDRqsqD7TIKHE0H0T9wghb7DSEy0JQgMlIAA6D6+8PJhxhhhtJJDCGOhHiVCxa5UU52XIN0iDCkQnlxU6mrA5Z5eTS+RHeIzkaOavl+0aJUqG+TAeGi2kCl5JL6nv/EWpOVyxZA71+sFUyIeJTRwYV20q0uS0TCXEhYXiCdjUoBURRIc9oPZUSppakaikqGoMSHs9n/aA2dZ4ETBLEsqNLnSkuWqeQLcrxDlsqb5EyaVOpSypQaxLsTTsz77UEDcTmCUqlzSyky16VjooVfn6hGcMa7xvDLYEi/PI7lpVvp7WUtvak3kchJ42/aJDOFFRM7SQkqCjLKgE0oguGejUMU1+INZTLSE6iQAwKm1Wo97fd6eJxEpa57N+J/tkBgNFRSjPUNtqAir4TxKFTVOnUdLOVaQ1iC1TYb7bx1ap4bjUFwJOfHs9Vfg6dKvhiP8AqY6RMgZTpJ0Gi2GKy1EqVMRLQ5IJ8xVyoMS7mgYn4CPP8ZlqsMoM4Lj51D9wY9Tl6gkqUrS6Cm9GOybVer3jF51KUqapMvVMAlp4zXiS5cn3UYy2YzaqEndef2TxMLUpsGyGsixNx3wCt5pmiFZeAvhmBQZPNOoAj5vGSlY1cuqSRqDODAnNlzTxKSoBJFbgGlHsDW0IgqUmgccx+0P0cMaTep6cEB+o0pczTMTrOaTET68q7RPNzFYTpTRJYqoLgMNJZxS4esMGXqPqHTnU82iL/QrUWAtQ8n6doZaGrKxVbxWkcR+flFsqxC160oUyFgeZVqA70LPSz2js6lqCkS0TAwppBLpsyXuRyHJmiXJ8hmtMSrhC0jiBqGLs3YEvt7wQk5IJTJBO1b7XswcA1gTTh0jvmuZiGikGaiekmefE9OuexGX6UE3o/VxWHZMFzVmYtRJ5qNCGoB98oKZmpJAlPyBWLguPjApMwp4VVGxFvv5xz37TSBmhOFrgB+hg2vp7wfWy2/h9OHJCVHQ1fUwLByK/fzaBWcnEYh1kmUFDSmjaU2o4FWDnqeggDKxACQsTG0qoSoEpBYjr1fSzjsLRmuVMlJJIImJBAtqYV0ihFGHpp1q8IhktHPjqnsBXptr7NY3IgG0CbdCbCQtTj8DNL+SkKleqWoqCdBUOJJcHUl3NK1aM1mEyZhZktJSEzFgJVpSnSsHmEqobBwAfaHpzmYggJVRxuLkJozbF6n9ID5hnk1c9M6YyynVpOwclO1AeD9Ylh2pgRy7GqbxNA0myXAjTOc7yMjbP0CqzHSVaipOoOGpV9wTQHpG98O4hapEvzC62vzS5CajpGFxk1UxlKoFKDFqXCTpAezCn7xqMPm06XKSlCES0outfEw5gPe4YkxdTqin/AHMLJxTHVWgNEwtbmGAlTwnzUPYJUmik0qSeUZWb41BQqRIQqUl7kuSKPV2RV6DblEGWeLJi5sw6isNwgsAWNQ1g7tztACUUaprkoAJID7PRPwaOdWEHZEH1vHZVQwjtmHOBGkGfTotHhcQQgyytpU0i4La0kVBYtdiWIY9osSwCjUku1+YI2PWMth8x0KIdwAWdjRVC2qm9xEi8zKDwLFWOx7Gnyf5wlVoeIADYjXvqrsHjauDdsuuzM/I4+/O60eBmETXPpWkg9qj2o5i/4aneXjR1v+sZdOaa0uOFSTxEdqe3I9e0G8lxaJmIlqT36Usf8fWGMESAGO0V31VrKg8ancEd8l64YaYcYYY1l55IYR44w2JUIOUREZUWdMMIMFCGVB5cJ5UTkQ0xEKZUOiKuIU9IszCTQPEEzLisMVKQ+6Wdtw5Bb3FY6AuVNc1CTxLSD1UB9YzOe5zqWJSFDT6lNUsPY+xAjYZd4bwsliiSkkfmU6y/utyIyHinIE4YmbKB0Lcndi9Rd2rQ9vdLFmqWfblw7y6ei1PpngisC/PScp+d3zCPZTmCShctQS+gs9Lb9TaMlnJdRSDwqQWAoH9uyfhFCUolWoFNgGfbmab2hmYz1ODcpIJ3o7n5RiMw5DhB0/fut6uWNaTvI/AMcwhacc9bWdunQm8SZXmXlTFEksDtux3iliW1lrOWf3pBPLpCHStTEAaiNiRYfGNGoG7BJGeiw8IXMeQNT7W/a1+MztYlomzACdSdCFq0hKTQrU9FHSbGguYzpzAebMWt9YcE2JbZ03rUfKJZIKlKVMWpJWqmpIKXLAOfygNy35xaxOXq8ogpS6dPEKhaTwkgk3BFfcPaFKVAUxa5OZB03b/adb3Wk6oDE2A03Z3HObx8xUl4laUmcihNwXOtI4Smak+pNx0baIMMJRWkpSEKmaUqSPSFkUI2AJp7qi/LwpBAlIJcjVWpIYMkp+UDpmWhE3Qp2mEC9eI0I6gkEe0GxzAXHWDziPcZ/qVTVYXNAEd/OS0ByzQkgKJO5YcNDcE17RJlmXV0cJFACk3Lbjb2ME5E5CBLXMDTFCtXcgMXcc9VIB4/PZqpykSuAaiApI4iBQVu5bpdtouaGgwTlpwzzMLPcTG6dT7a7kbnS5kmaRMCUymToU7Eqbid9oG4+aqZq0rYMAlgK9X2e3aK3iEzJy0S5gqlMzSTclKULSxO5CR14oqys5NpyQFD0zABxNpNrAt032gnVy5thH6t/vxKaZgNl13Am0bo3oZLIC6pVqA99Smqb2hZGCVMlTLukg/+1mHu/wAhygsMTIMta1k6koVqAASQolkBLqdQtUWarOHv+G8XqaYAkaQoOdyzBxzY/EjkYprE0gHkWPeS0cM4VA5hMls+e6eCxhm6BoUAQSD7jkCKsekNSrjAcjhNlNViWdLvUD9YveJ9Eyeoo4QakCwV097xnjNenL4GGqX3NDgsvGMYKmzHMb943IriJkwsUg0AKju1ATS4Jr0+cFMtRQpUWAUSA5NDxD9Q8DcinKTOTq9CuFQsNMzhP6HtG9m5fpwwBKikWLWIZiS1QoOHB2HKF64/5A6jvuVqYLEOB2ySdL7uxrMws1l00hR18SUlbEp8zS+6HcAuHJpbpEmbSBQl9ActsCdzzN6mKUyekaKmh0gihAHSDM/EjytRYj0DYqoLt7HsIEAlwMZKcbTOyNm5JjmSPP8ACEZfj/JmEGWkgkcRfn0PeCuJwOHnaVIUAtV0M9QLgj2bttE+TZGjEIOsgKU5DFyBYUdgHNyYFZvgJuBXuUUvdJY3IdLUpV7RD2z9zcygFItBa/8A53bvK45IfmWVpRVyroEkVHVq9ucBHrpO9j+8avC5xNmcK0OLOaAXrX9IjyvAgzlUBShgCah+fT+IupPcPtqBI4ljCNppTsMgy5aSmpYpKvepYcngzkGH/EQd1KA7mgENxWGUkcSQUlkhtuRZupgj4GwZViU6qplup+rBh/8AQi+k4ufBEfhI1R9kz+16gTCEx2qEjQSKQw2FhI5cqLQjCGGWYcEmDKFKUDlDSkQrw4CBKJQ6Wh8OUiIZiWDmBJUgLlqYOTSMZ4sx/wCGs/1DSkHkf4gxj8SpRaw5RkfEZ1LQkbB/iQ/0iuo7ZYSrGCXAIJhpSiKBmsa26Ral4cJSp+pJPzPy+UHcJl6tAdkhndRZ/bc9oTFZEqhE0BwXIRqsWYv1e8Yxr0qZMu8pPsCtX+auADlxgLKzMIlQG4LGnK7xby/K0qKZeyzp7mg+F4K4rIpmnUkiYkD8oZTf8d+0DpeMKCmYx4GU2401ZubiAbWFQHwz+jpZS1mw4B2SLYnK5MqaqUeIbgcRCgXSGDh3oxtS0B8UkpBQlJNVMnU4oC/CKOz1g1nuHICpiA0pSQqWoLcELDswY6n9/lGTXMWpClkkkUBUlqH1WDAP90gqV2z2Z00yy370wON56RCMY7PFKkJQlYSrTVkhKrgDSprCpahpvFLHYUymUuYqZMam4vwgX0i5tTvDZsrgbS5DfSJZCFzFJIQBLKeIu5ACtNauFE7d7CLA6Rb38lL6RBy9N9ldkeZi1S0pSUaUlZWzg6lFgLC57RUzqWZK9MxepZoCQAHBDhY24LF7xewKphmpQmYZSB+GCKAPT9GgP4oM6XNXKmkEg0VuQRQghncdOcFSZL9of1FogdL+XBDiKLm09hwG1/b54a+qKysUiZIGr1yUNMS5JMpwEzQ+6VM+7F4oZ3OlgBUxRKwAl2fzEs6VOGDs4Jq9OUV8ozcypiVlyGIWL6wvYgbaWoX9PwnzLBiQUkJMzCzHYO+k3BHuK7PEVGbFc5w64G86jnmRvmNFGHrF+G+6AW2m9gcuY04eaoYDM0pSrWCpBcBINipnodiEixFotZdJmJUtCCyQASSHcKDixYFjAqauQlZKUqKWYAUqd68vbeDPh2QtSwjzWCuAIVsH4Q4LEts3QQxULSyXW57glWPqNqRTz4TmdRz/AHoqE9C0KUVnW9tPPba1IsZPkupSirRpBDkmmogqAYVdoJ594YmSj52vUmyhYg2DA3ihhFy9TqSCee1uUKmu2pTmkbbwPwtTC4EtO1Uznnbn757lZnokp1lMwJIDMGal2Ki47RdwPiPhKVrBlmqhuaAO5FKCzn2gHm8wKTzAqGozuSAAABXptAidOSqTVPGFBlJoDuyxuWFIKnR2hcm9l2IxDqByFrgddOKK5liULPmMUks6dLJqGBc+1/eDeIyGamWJZUjzEjzPLFXTpdgWYlgS0BsNiJhCNcoLDgigqkFTgkkm4UG7cgScrMFTJ6ZyR+KFHhJYAEFkh20BuEPZxbaXgtADfnkO78VVSql7ota+7hv3aZXyVHA5kpJevv8AztGhm5kJ6RKUdRIuRVJSCniNiDU05isC89CFq4UBC9SjpIIUpJcjVu4t2i3keEKXVOGgUppavIklztTrEMph9xZOVMYGN+4SRlr7aBJPy9apKgkAq00foRW12doK+HcnmaB5lA5JI+DdYL4PDOqneCGLISgilo0TQGvkvKCsYgLOZ+oH02SwDbEHZvhGp8GYLTLMxmK7dEj+XjMrkKmzES03Ufh17Xj0PCyghKUpskAD2EG1g2y5C532hqsPCExzwhMXKpITCRzx0SuVGsOELCwRUBI8OhYbOWwgVKZNmADrA2fNJuYlWqKk5bx0KJQ/FKvA1EiUDMmTazKaEGgYUKq3Py99pM/xapUsqQAVOAkGzk79IoZZiRMZUyWrzAPVcFW7OXDlzZ3jM+pvins6HODHT884GUrS+n0Nsl50VKZgPMmFZUQpxVRJJQoEKIergbDpGlwCEmQlCC5YmpdnUoD6E9xAfGS0Eh3AcHiBTu1LuDUd4tTkpShCSpTJ9LKswYAswJHURivqDYDSMrCMu+AyW14cn9J81ExM5CUkkAE051P0/QQmbYETgubLT+Iiq6eoc/8AkA3btFZcybqBoqUkEqBLKsQFE715nnQxosnUAlK02W6lWKWoHfdwkGmximp/GwVmkbQ6WtY8787HRQ9u0Nk7s1i8NjFIlGQRqllYWAahKgXJAsx3FLxUxmKSshHlzEOCXQoFBNGFdLA1d+l4L43Bp1LZwgFTMHoDS1YimYUCiR8b1s0azQD9wGd+UjPnELO8VzfsmI7hQT85CJRlqlSlMkDzEagrmXKhRTb1D2pSIQpKJJlylzASpKlpIBCjf1EaiAW33fcxJipKdNWrSvM+8B8Qh6JqfQ49gzQBGyYFtTuNov05J/BuY4l1QTuOvRQjFTJalAgggjbuH2+6RVzXFqmqClMVMxVzA9LjYitd6Rdl46YqSZCidLpKa/mHpcEF0gcmantFH/t6yrSSAxYsXtetocZA4IcRVLgC+bZfHekKHCzylKlMCCNNbuQeJNbi77d4I/8A6MnCrw0wFfFrlrcOlRLkF/ynuxivjJaEJ0ips3XrBHJPDSMRMMoLSVJqS7BrnTSsS9rHESJuCI3hZ9Km94JBgCc/ZB8JNS41AtR+YHR/pG1zOQheHQJBBmPrcgAqATRjyavRukY/H5aqRMKFOllMXFm36/zBLJcelBNNSSFJYixIIDEBwCS3e0E17WzbOysq4Z9nNMOEG2uoI5Ld5LmScZhiiZ/uJC3c1On+r+4M77/Xz/NcKpBCtl+lqsaPa1TDcJilSZ+qVwhSnY/3FwCCTQ27RqpeFLPUKAVwmzPSo9hGeKHgPJaZBMx7+vstI41po2s63Q69Dn1tkvPcXMUaGnRos5EsBYBs7kXuCHruIP5phkqTxJZqClejQLRkk8gLSDpsn9O0NuqN2NkwFnM8R9TxLlE8RICJWtK0rrpUw0sWdLt6nAfV0L1iqnHaykzFAKAASuxoKBR5cjtuWqIUIVLSZc8adQCkOCQFCoBILjfnfbanNlgqJb0twoq6thXncxNNpeIJtvVVT+B+3TtwzPEcR3Y3WyTjZ0yVNSEI81adPmFn09dO56C47xLkmUTHSZszzNPpSCWCg2xFbQI8MOh/ND6rtQp5B9wAbbR6DgcMEgFIp+8XUKOzUORjz/XZN1VisZVqMGYB8u8v8U8iVpF9ooZhiRVzaJ8cs2FGL0JqOrd4F4KR/qpukOJaarP6DqYbLtyz2hHPCuDZPnKuv09Ev8n/AEHONKIgkywAALCgHSJgIlogQuJT3hCYZCvBKFxhI4mGxK4KuDDtQhmmE8uJUDJPVOAipOmvD5hAoIqTFRICgpsxUVJionWYqzVRJXBAvEWn8IzNegTUklCQpSSytJY/3NEpkkKUBNSSCSdQZg7B9LBNaMQ9DyMT4hfX/MZ7NsbOSVAJPlLVrUZatKtf5qsWBYFvfm0Yf1Si+o4bOXMZ7r69brVwFYMBBPofxKMZxk0oJMyYskoGokmlrsLNyrGbxniFHCJPC2nS5oAEhLqBu4dwRv3iJGdrQSQmat1AnzSVuA1C7vYfOJ8KqXOUnUJiKMpJ08XWgDezWaF/D8Np28ptfdOl/JPsql5gHTcfe3zuV7B5WvFDUFmWH4qumlWSDxMXts5jYYTFpWlkj0JMsEgpS4AHCDcWHaA2WSpUsKMoBJN60t8v1hmDxvlyyo7nUB1It8vrGRiC6tLGzANtDffc+6v2mkFzs1OMO1CdRFCfrTYOflAfNM10TBKlo81ZB4RsQzOdhd3NGFneCeS4ObMGyQSVLUqoS9eEO5L1YgDrsUVgkSiryktqJ1KNVKrTUfjSwe0enww/jaIyAE7yLW9TPusTEGXFxddxJjnv48OphZOck+alU9aVqupIPBLG1B6i+5oN+cR5pN0kKdg4eJc3w5lTBNlMCfUBRzd/fpAozZagnzH4ahO2/WggakTBFuCZw7JAcw31lQS5g1ElZA5tdz8qQb/0Pm/hSFIWUjUWWCVP8K1A7QDxFVMzC9L/ABNodIwpSoTEAkJdwadHcXqfkIGJGcdJ5aj3TFUPIgDag7479eCVMjTN0zElPMGnOzvvGpyefLAp6wQSxuzuASbt1+EWJKJWMwgkFaTjJRX5aiRxIGskJIougv78oyOHK9TaVa0liAHrzpsbvFTh4hIOlvg9c09ha1KkyxieInlum98pytdFfGE9MxRWku7DqeR6mw7CAssFmam/asFpGAWpQUsFO9eb36QSXkSVOpRKVHly7giO29kQ5KV6zTU+y4iEBwMuZOmpAAUUlKiaBgli5YVo4bmRyjdZjmglywSA5BJ6U/8AqtO8CpksSJCtCBLTVJpxK2Lm5NSYF57iUqAQnhALBNLCxp0gnVHBwIGfol6GGFVpJOR81ay8JxC2mTAl7GrJ5W+H6RdzBc/CAFQEyW/DMsFcI29hQxmkJIIWCCDy2PIjYwcm5wVMhQSpAAFdi1x1Hw94XewF33CV6BtJtRjRTAA5fn5snrzCXiJalKCX2G4LMB1rFDIcASptKSADxBXXZqNsfb3gJimlTWqw0kfAKAL+/wAo2PgmTLUyUTGJOtSQAyruBdhVPL0m94aoURTH2nP0XnsW7MH/AJn4RST4dUopUuYyBVh03c0HvGinzQlLDlEk6clIaM7iZypitEr0vU1oD9/4h5lJtPIZ+ay31XVP7HJMnKXOX5cug3V0f7941+T5eJMsISOpO5JuTFPJMtCBT48zzg4hMWhuqrmU9Lw8H3iOFglCe/vDSqOeE1HnEqFzwneOcwnwiVKihJimEOeOaOUKhMiFUW58rlERkFnMTIUQqUwxTmmLE5UU5x5xxXKrPgHjZ+hyzjcft1g1OMCMwTC1Zoc0gq6mSDIVKWZcyqFD2sfhEcyUyhpBJ5/pFCVhSJoA9J+RjTSMtIHqL9CYzRgicinf/VsqOXKWzlx0+6wVy/JlzAFEpA2CgX5Pav0grlOXBKEqI4rufvrC5nmC0paQUqmOCxsQCHHR7PtHN+nsbJdccEJxbnQAnT5YlS/LBJ1XNe/ttaB8yUFAsagNzuN+ZpFrzSskqIKhQjl0jP5tNXKX+EpA1MwUpiWZ2B7V6xoOilTEC3BLUwajyCYPFVswy8gFVzz60DtGLxOBLr1EguSOrl43OcTZoADh9JJCb9D9bcoo5dlAxCSJxZXFpUah2o7ENUpFXhRzxtbIseK1cNhH7Him7eHY9EMwXhKfNlCfhlomJ5OywoCqSDQl+tdo0K8s1SUr06SoAqDWWHCgQbVEBsFjJ2WTyhXpUU60u4q3X7oY2s7PMMSSFpZdTUNr0jUl+ZAfrWMvHOrNggTBty3Hke7rSoMFOSzI5jTn10Xmc5f+nxKZiSVaSdLFrhrt1+7wexGZJE5M6UARM0+Y6WI5sRQsPr8BWaYMzJjyxQiw23i+mUsSky1aWS9r1JYqLP1oIedU+1rtcjpbd5xy3pFwbt1Kbv6m452v7/mVTzjP5xUqUGQNRYgByPyCtupg7kmJmJCPOTUhwCHJuxAFdoymYSlKnJAY+5AF7V9mjW+H801oSNYSxUWO+piW5MXHccorxryKYc0fpTgqTC07SB55my1zCFo0h7EG1v2g4tGHnShLWFaxRK0tuNTEkWH3WL65mGY69KtSq8QJTexVY8uXyjJzJEyWpRSnXL1EpBJcJBoH5swsYpd/MA6YIyvc/jO2ZWhh2toDYeLG9tIVzHZSNZEqYkslyhQq3Phdq9B9YoTCJT606lflAPBs9TVw9QzilIu4LHpmqGlBSs3CgHLbahSlbteL2BwvmTdC0tcsRV3Ym31i+iXbYa8d+qLGVR/53OpOvn01zj4WYw+F81dRMmqJd08ASwP9Qqz8tusbvw5lsvCyhNmVnKBJJqQDsmzUaGpxaZR8uUjWoGpHTk3Wn1iaTgFTCFTT/wCoNO/P2tGjSlxkZLy1V0D7s/WFyJy8QqlEc++3M9YP5ZlwAASGH384dgsDYAMINSpekNDYbCWJlLLltSJAI4Q6JUJukO8OaGwjxwA0UynR0NcxzxK5LCQhVCajyjlCZDo4CHNELkwxRxk16CLWKWRQRQUI4BcSqUxEVJkqCi0xCtEcuQibJMDMdJIEaCaiKGJkvFD2qxpWWny9xQix6wa8L40KWhE0sAric7b3ipicMRFBSSk6klj+9weYihriFaQDmvXcyywTG0qZFXa5HLpAvGZalOnSLKd+V6g7G93gf4d8YBTImcK7V9Ku53jVJmomdDyixwFRhYUDSabtoLz4MVTVS3K2UrdJVQ6aUcPaMjI0qmOtSjqPEfzWoQ9D/wAS3QxspolYqYVoIKSBpD/l2LbPUxm/EmSqkcaBf4H9jGOMYwv8EZjyPt+/VegpYP8A6cbkC2o5aE8EdzHK0lMpchRJZbtVICKAs3C5Bcc1Dq8Oe4iXLmJVh5g0qT+ICDwrIYijNQkNWj9IDZLni0D1OggghSm0kncsSU1Ia3E8RZjiJU0JUkMEBpihUqIBLhr0YWBYw09jahltuG5dh8Q7DkU67pAmDvB/E6aHgVB4hWZyAX1FF1U9OwYDatzFPKUBiFKGkliCKXDkv7XDbwRl4R0BmCSAXrV7XJbaEVlKz+XuPb5Ra2mdgtJvvSeIxjTWDqYsPLkrWDn6VuSkoIYab1JY2tFBBnlZEwqBJUEkVuS3/FO3b3jUZFlBQlesB1ch+X357xdXlYoU8NH6sWId6g9Ij/y1Q3Q++fkl/wD1Ug47I+P84LD43QZyHezKfk7avjFfFSfJmsoHSokgpeh3D78/YxqMzwaUg69Id26wHlZihICZhBBswdhsVfNjsD8AqtczSeGqbwlQOaWkwAZBUGFSdJSCpKS5oLuGcuHFIlwcwaG1DuWcHk/RoixGWguZKyEj2KS/95/mCeByErYBdAzq0sXIrpqQf4ihrBUOyDc3hPVXGjTNR2W8a8rqlhkFK3l1rQHb3b9I0GAy+ao61qIWoMVbsakDYVEFMDlSUMwqNzeC8nDRp0sI1pk3O9efr419S0wNyo4PLwkUF7m5Pud4LYTCOekWZOFi8hDCG8sknmmypQApEoEI0LHKUpENhYQxK5JHPHGEMcuToR4RoYRHKJUh+7QjfbRG0JErk8E845aiBeOjoFSh63NzEZT1jo6CQpq0dYiUjrCR0QpUC09YrTZfWOjoBwRBVJsl4GYrBjaOjoXc0K0FDZ+GiWVm+Ilp0pmHT1uB0N46OirJGqGEmzhM1oUUDick8LkvY3rGuyPPZWMSvDzEusChIYL2JD8j9R26OjIx1FlQPeRduRWrhXu2WiVi/EOTmQs6QSjY8juC0M8L4dSlBgSkFz3Ab6fOFjo0PpzjUZ9yH6uNkgjUfPwtrIwLkEPyYfsIM4PLUisxgnkf1hY6NV42clhNMm6nxM2SEkBQQTuGcUoa0jP5hnqUaglQmMkaS4KirfUAGH7x0dFLnnRWhoWVxip04aRRLuSq9bim0S4Lw+CXXxH4COjoBlFo6I31nlajLssRLDJSB2gnLkvHR0MNCXdmr0jDPtF+ThwOsdHQRXBWGjhHR0QpK54UQkdEqEsJHR0SuCWGvHR0cuSPCGOjolckjmjo6OXL/9k=",
+            "ingredients": [
+              "1 butternut squash - peeled, seeded, and cut into 1-inch cubes",
+              "2 tablespoons olive oil",
+              "2 cloves garlic, minced",
+              "salt and ground black pepper to taste"
+            ],
+            "price": 140,
+            "distance": 3,
+            "discount": 15,
+            "type": "veg"
+          }
+        }
+      ]
+    }
+  ]
+}
