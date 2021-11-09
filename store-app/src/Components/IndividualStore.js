@@ -5,7 +5,7 @@ import IndividualItem from "./IndividualItem";
 
 function IndividualStore(props) {
   var storeId = props.match.params.storeId;
-  var { stores, click, clickOpen, clickClose } = props;
+  var { stores } = props;
   var allRecipes = [];
   stores.map((each) => {
     if (each.storeId === storeId) {

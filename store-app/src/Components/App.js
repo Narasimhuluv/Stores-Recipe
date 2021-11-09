@@ -7,13 +7,6 @@ import IndividualStore from "./IndividualStore";
 import IndividualItem from "./IndividualItem";
 
 function App() {
-  var [click, setClick] = useState(false);
-  var clickOpen = () => {
-    setClick(true);
-  };
-  var clickClose = () => {
-    setClick(false);
-  };
   return (
     <header>
       <Header />
@@ -23,12 +16,7 @@ function App() {
         </Route>
 
         <Route path="/:storeId" exact>
-          <IndividualStore
-            click={click}
-            clickOpen={clickOpen}
-            clickClose={clickClose}
-            stores={stores.stores}
-          />
+          <IndividualStore stores={stores.stores} />
         </Route>
 
         <Route path="/:storeId/:itemId">
